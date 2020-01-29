@@ -18,6 +18,8 @@ const MovieList = props => {
     
     getMovies();
   }, []);
+
+ 
   
   return (
     <div className="movie-list">
