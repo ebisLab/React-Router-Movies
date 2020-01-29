@@ -1,6 +1,7 @@
 import React from 'react';
 import {Route, Link} from 'react-router-dom';
 import MovieList from './MovieList';
+import {useHistory} from 'react-router-dom'
 
 const SavedList = props => (
   <div className="saved-list">
