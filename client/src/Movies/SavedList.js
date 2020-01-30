@@ -26,8 +26,6 @@ history.push('/')
     ))}
     <div className="home-button" onClick={routeBackHome}>
       Home
-      {/* <a href="google.com">Hello World</a> */}
-      {/* <Link to='/'>Home</Link> */}
        <Route path="/"/>
       </div>
   </div>
